@@ -3,7 +3,7 @@
 #include<time.h>
 
 /**
- * maim- returns alphabets
+ * main- returns alphabets
  *
  * Return- Always 0 (Success)
  *
@@ -15,7 +15,7 @@ int main(void)
 	while (ch <= 'z')
 	{
 		putchar(ch);
-		ch ++;
+		ch++;
 	}
 	putchar('\n');
 	return (0);
