@@ -10,8 +10,8 @@
 
 int main(void)
 {
-	int ch ='a';
-	int CH ='A';
+	int ch = 'a';
+	int CH = 'A';
 
 	while (ch <= 'z')
 	{
