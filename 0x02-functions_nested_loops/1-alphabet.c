@@ -1,12 +1,22 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
-/**
- * main - serves as entry point for the program
- *
- * Return: Always 0 (Success)
- *
- */
-void print_alphabet(void);
-{
+#include <stdio.h>
+#include "main.h"
 
+/**
+ * print_alphabet(void)
+ *
+ * Return: 0 if no error
+ */
+
+void print_alphabet(void)
+{
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+	}
+
+	_putchar('\n');
+
+}
