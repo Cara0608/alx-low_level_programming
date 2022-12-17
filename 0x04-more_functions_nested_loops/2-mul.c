@@ -7,7 +7,7 @@
  * Return: something but success
  */
 
-int main(int a, int b)
+int mul(int a, int b)
 {
 	return (a * b);
 }
