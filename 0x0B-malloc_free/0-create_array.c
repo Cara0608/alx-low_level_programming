@@ -4,8 +4,8 @@
 /**
  * create_array - writes the character c to stdout
  * @size: the character to print
+ * @c: string to ptint
  * Return: pointer to array or null
- *
  */
 
 char *create_array(unsigned int size, char c)
