@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * *argstostr - prints args
@@ -22,7 +23,7 @@ char *argstostr(int ac, char **av)
 			count++;
 			b++;
 		}
-		a++
+		a++;
 	}
 	count = count + ac + 1;
 	str = malloc(sizeof(char) * size);
