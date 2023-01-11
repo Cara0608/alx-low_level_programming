@@ -65,7 +65,7 @@ char **strtow(char *str)
 			}
 		}
 		else if (c++ == 0)
-			start = ib
+			start = i;
 	}
 
 	matrix[k] = NULL;
