@@ -28,7 +28,7 @@ int _isNumber(char *argv)
 
 	for (i = 0; argv[i]; i++)
 		if (argv[i] < 48 || argv[i] > 57)
-			
+
 			return (1);
 	return (0);
 }
@@ -49,7 +49,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	tab = malloc(size * nmemb);
 
 	if (tab == NULL)
-			return (NULL);
+		return (NULL);
 
 	for (i = 0; i < (size * nmemb); i++)
 		tab[i] = '0';
@@ -96,6 +96,7 @@ void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 void print_array(char *a, int nb)
 {
 	int i = 0;
+
 	while (a[i] == '0' && (i + 1) < nb)
 	{
 		i++;
@@ -128,6 +129,7 @@ int main(int argc, char *argv[])
 		}
 		exit(98);
 	}
+
 	for (len1 = 0; argv[1][len1]; len1++);
 	for (len2 = 0; argv[2][len2]; len2++);
 	lenres = len1 + len2;
