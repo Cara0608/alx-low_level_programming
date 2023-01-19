@@ -1,1 +1,2 @@
-More funvtions and pointers on C
+My first readme
+More functions and pointers on C
