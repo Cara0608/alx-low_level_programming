@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-void print_all(const char * const format, ...)
+void print_all(const char * const format, ...) //print_all: prints all
 {
 	va_list valist;
 	unsigned int i = 0, j, k = 0;
