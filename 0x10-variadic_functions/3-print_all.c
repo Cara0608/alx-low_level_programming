@@ -2,7 +2,12 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-void print_all(const char * const format, ...) //print_all: prints all
+/**
+ * print_all- prints all
+ *
+ * Return: Nothing.
+ */
+void print_all(const char * const format, ...)
 {
 	va_list valist;
 	unsigned int i = 0, j, k = 0;
