@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main- function executed before main
+ * bmain- function executed before main
  * Return: no return
  */
 
-int main(void)
+void _attribute_ ((constructor)) bmain()
 {
 	printf("You're beat! and yet, you must allow");
 	printf(",\nI bore my house upon my back!\n");
