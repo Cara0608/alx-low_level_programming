@@ -7,7 +7,7 @@
 
 /**
  * struct list_s - singly linked list
- * @strv string - (malloc'ed string)
+ * @str: string - (malloc'ed string)
  * @len: Length of thr string
  * @next: Points to next node
  * Description: Singly linked lists node structure for Holberton project
